@@ -2,8 +2,8 @@ def suma(a,b):
 	return a + b 
 
 def main(): 
-	a = input()
-	b = input()
+	a = float(input())
+	b = float(input())
 	sum = suma(a,b)
 	print(f'La suma de {a} + {b} es igual a {sum}')
 	return
